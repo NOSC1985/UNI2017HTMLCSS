@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {background-color: deepskyblue; background-image: url("BackgroundPicture.jpg");}
+a {text-decoration: none }
+
+
+.MainHeading {fontsize: 400%; color: blue; text-decoration: underline; background-color: lightpink; width: 400px;}
+.SubHeading {fontsize: 200%; color: blue; text-decoration: none; background-color: lightpink; width: 400px;}
+.IntroductionParagraph {width: 500px; height: min-content; padding: 	15px; background-color: lightpink;}
+
+.ShortList {list-style-type: circle; color: red; background-color: lightpink; width: min-content;}
+.LongList {list-style-type: circle; color: red; background-color: lightpink;}
+
+.HomeButton {align-self: baseline; background-color: lightpink; color: rebeccapurple;}

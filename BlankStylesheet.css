@@ -1,0 +1,6 @@
+h1 { font-weight: bold; color: blue;} 
+.warning { font-size: 200%; color: red;} 
+
+.column { width: 200px; height: auto; padding: 15px; border: thin-solid;}
+
+.inverse { color: white; background-color: black;}
