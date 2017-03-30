@@ -1,6 +1,50 @@
-h1 { font-weight: bold; color: blue;} 
-.warning { font-size: 200%; color: red;} 
+h1 {
+    font-weight: bold;
+    color: blue;
+}
 
-.column { width: 200px; height: auto; padding: 15px; border: thin-solid;}
+.warning {
+    font-size: 200%;
+    color: red;
+}
 
-.inverse { color: white; background-color: black;}
+.column {
+    width: auto;
+    height: auto;
+
+
+}
+
+.inverse {
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-size: 120%;
+    color: blue;
+}
+
+p {
+    margin: 5%;
+    padding: 5%;
+    border: groove thick black;
+    background-color: white;
+    height: auto;
+    width: auto;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow: scroll;
+}
+
+.floatBox {
+    width: 200px;
+    float: left;
+    border: 1px solid black;
+    padding-bottom: 20px;
+    margin: 0px 20px 10px 10px;
+    text-align: center;
+    background-color: #cfc;
+}
