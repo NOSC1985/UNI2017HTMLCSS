@@ -28,6 +28,31 @@ p {
     width: 100%
 }
 
+#MajorBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+}
+
+#MajorBanner a {
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 700%;
+    background-color: red;
+    color: black;
+}
+
+#MajorBanner a:hover {
+    color: white;
+    background-color: darkblue;
+}
+#MajorBanner a:active {
+    color: #000000;
+    background-color: darkblue;
+}
+
+
 #header {
     width: 100%;
 }
