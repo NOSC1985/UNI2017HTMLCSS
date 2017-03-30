@@ -24,37 +24,51 @@ p {
     font-size: 120%;
     color: blue;
 }
+#HomepageBanner {
+    width: 100%
+}
 
+#header {
+    width: 100%;
+}
 #header ul {
     position: absolute;
+    width: 100%;
+    height: auto;
     left: 0;
-    top: 30px;
+    top: 450px;
     margin: 0;
     padding: 0;
-    background-color: #f0f3ff;
+    background-color: gold;
 }
 #header li {
     list-style: none;
-    display: inline;
+    display: inline-flex;
 }
 
 #header ul li a {
-    height: 20px;
-    margin: 0;
-    padding: 0 10px 0 10px;
-    border-left: #999999 1px solid;
-    border-top: #999999 1px solid;
-    border-bottom: #999999 1px solid;
+    height: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    border: #999999 1px solid;
     color: #333333;
     text-decoration: none;
     font-size: 24px;
 }
 
 #header ul li a:hover {
-    color: #333333;
-    background-color: #97bfff;
+    color: white;
+    background-color: darkblue;
 }
 #header ul li a:active {
     color: #000000;
-    background-color: #FF9900;
+    background-color: darkblue;
 }
