@@ -29,6 +29,12 @@
     width: 100%
 }
 
+#NewSeasonStart {
+    position: absolute;
+    left: 5px;
+    top: 655px
+}
+
 #MajorBanner {
     width: 100%;
     position: absolute;
@@ -39,7 +45,7 @@
 #MajorBanner a {
     text-decoration: none;
     font-stretch: expanded;
-    font-size: 700%;
+    font-size: 585%;
     background-color: red;
     color: black;
 }
@@ -53,6 +59,41 @@
     background-color: darkblue;
 }
 
+#BarAndFunctionBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 585%;
+    background-color: black;
+    color: white;
+}
+
+#BarAndFunctionHeading {
+    position: absolute;
+    left: 500px;
+    top: 790px;
+}
+
+#BarAndFunctionBody {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 890px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+    text-align: center;
+
+}
+
+#BarAndFunctionBody a {
+    color: red;
+
+}
 
 #header {
     width: 100%;
@@ -215,6 +256,25 @@
     text-align: center;
 }
 
+#SubContactHeading {
+    position: absolute;
+    left: 650px;
+    top: 1500px;
+    text-align: center;
+}
+
+#SubContactInfo {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 1650px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+    text-align: center;
+}
+
 #InternalDrinksAdvertisement {
     width: 21.25%;
     position: absolute;
@@ -226,6 +286,7 @@
     background-color: blue;
     color: gold;
 }
+
 
 #JuniorsBanner {
     width: 100%;
