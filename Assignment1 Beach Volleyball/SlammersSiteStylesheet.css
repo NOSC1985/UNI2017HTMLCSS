@@ -35,6 +35,53 @@
     top: 655px
 }
 
+
+#ProTopBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 585%;
+}
+
+#ProSignupForm {
+    position: absolute;
+    width: 25%;
+    height: auto;
+    left: 500px;
+    top: 750px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+
+}
+#ProSignupForm label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#CasualTopBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+#JuniorTopBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
 #MajorBanner {
     width: 100%;
     position: absolute;
