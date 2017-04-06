@@ -197,6 +197,111 @@
 
 }
 
+#ContactPageHeading {
+    position: absolute;
+    left: 500px;
+    top: 575px;
+}
+
+#ContactPageInfo {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 675px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+    text-align: center;
+}
+
+#InternalDrinksAdvertisement {
+    width: 21.25%;
+    position: absolute;
+    top: 570px;
+    text-align: center;
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 200%;
+    background-color: blue;
+    color: gold;
+}
+
+#JuniorsBanner {
+    width: 100%;
+    position: absolute;
+    top: 600px;
+    text-align: center;
+}
+
+#JuniorsBanner a {
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 700%;
+    background-color: green;
+    color: black;
+}
+
+#JuniorsBanner a:hover {
+    color: white;
+    background-color: darkblue;
+}
+#JuniorsBanner a:active {
+    color: #000000;
+    background-color: darkblue;
+}
+
+
+#ProBanner {
+    width: 100%;
+    position: absolute;
+    top: 1000px;
+    text-align: center;
+}
+
+#ProBanner a {
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 700%;
+    background-color: red;
+    color: black;
+}
+
+#ProBanner a:hover {
+    color: white;
+    background-color: darkblue;
+}
+#ProBanner a:active {
+    color: #000000;
+    background-color: darkblue;
+}
+
+
+#CasualBanner {
+    width: 100%;
+    position: absolute;
+    top: 800px;
+    text-align: center;
+}
+
+#CasualBanner a {
+    text-decoration: none;
+    font-stretch: expanded;
+    font-size: 700%;
+    background-color: orange;
+    color: black;
+}
+
+#CasualBanner a:hover {
+    color: white;
+    background-color: darkblue;
+}
+#CasualBanner a:active {
+    color: #000000;
+    background-color: darkblue;
+}
+
+
 #Footer {
     width: 100%;
 }
