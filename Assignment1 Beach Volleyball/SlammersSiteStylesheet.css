@@ -1,8 +1,3 @@
-h1 {
-    font-weight: bold;
-    color: blue;
-}
-
 .warning {
     font-size: 200%;
     color: red;
@@ -11,8 +6,6 @@ h1 {
 .column {
     width: 400px;
     height: auto;
-
-
 }
 
 .inverse {
@@ -20,10 +13,18 @@ h1 {
     background-color: black;
 }
 
-p {
-    font-size: 120%;
-    color: blue;
+.Paragraph {
+    font-size: 200%;
+    color: black;
 }
+
+.MainHeading {
+    font-size: 500%;
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
 #HomepageBanner {
     width: 100%
 }
@@ -142,6 +143,60 @@ p {
     background-color: darkblue;
 }
 
+#ArticleOneHeading {
+    position: absolute;
+    left: 500px;
+    top: 700px;
+}
+
+#ArticleOneBody {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 800px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+
+}
+
+#ArticleTwoHeading {
+    position: absolute;
+    left: 500px;
+    top: 1150px;
+}
+
+#ArticleTwoBody{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 1250px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+
+}
+
+#ArticleThreeHeading {
+    position: absolute;
+    left: 500px;
+    top: 1550px;
+}
+
+#ArticleThreeBody{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    left: 450px;
+    top: 1650px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+
+}
+
 #Footer {
     width: 100%;
 }
@@ -164,8 +219,8 @@ p {
     height: 40px;
     margin-right: 100px;
     margin-left: 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     padding-right: 60px;
     padding-left: 60px;
@@ -175,7 +230,7 @@ p {
     border: #999999 1px solid;
     color: #333333;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 #Footer ul li a:hover {
