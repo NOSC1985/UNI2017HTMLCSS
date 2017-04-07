@@ -5,7 +5,7 @@
 <head>
     <!--Comments -->
     <meta charset="utf-8">
-    <title>Slammers Volleyball</title>
+    <title>Slammers Volleyball/Junior Sign-Up</title>
     <link href="SlammersSiteStylesheet.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -22,14 +22,14 @@
 <div id="header">
     <ul>
         <li><a href="SlammersSite.html">Home</a></li>
-        <li><a href="#">All About Volleyball</a></li>
-        <li><a href="#">Our Bar and Functions</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="AllAboutVolleyball.html">All About Volleyball</a></li>
+        <li><a href="BarAndFunctions.html">Our Bar and Functions</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
     </ul>
 </div>
 
-<div id="MajorBanner">
-    <a href="#">SIGN UP FOR THE NEW SEASON</a>
+<div id="JuniorTopBanner">
+    Junior Level Competition
 </div>
 
 <div id="Sidebar" class="column">
@@ -37,34 +37,58 @@
     <ul>
         <li><a href="SlammersSite.html">Home</a></li>
         <li><a href="SignUpPage.html">Sign Up</a></li>
-        <li><a href="#">Functions at Slammers</a></li>
-        <li><a href="#">About Our Volleyball</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li><a href="BarAndFunctions.html">Functions at Slammers</a></li>
+        <li><a href="AllAboutVolleyball.html">About Our Volleyball</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
     </ul>
     <img id="SidebarBottomPic" src="SlammersSiteImages\SidebarBottomPic.jpg">
 </div>
 
-<div id="ArticleOneHeading" class="MainHeading">
+<div id="JuniorSignupForm">
+    <form name="form1" method="post" action="JuniorSignupData.php" enctype="multipart/form-data">
 
-</div>
+        <label><input type="radio" name="gender" value="male" id="genderMale">Male</label>
+        <label><input type="radio" name="gender" value="female" id="genderFemale">Female</label><br><br>
 
-<div id="ArticleOneBody" class="Paragraph">
+        <label for="FirstName">First Name</label>
+        <input type="text" name="FirstName" size="40" id="FirstName"><br>
 
-</div>
+        <label for="Surname">Surname</label>
+        <input type="text" name="Surname" size="40" id="Surname"><br><br>
 
-<div id="ArticleTwoHeading" class="MainHeading">
+        <label for="Phone">Phone Number</label>
+        <input type="text" name="Phone" size="40" id="Phone"><br><br>
 
-</div>
+        <label for="Email">Email Address</label>
+        <input type="text" name="Email" size="40" id="Email"><br><br><br>
 
-<div id="ArticleTwoBody" class="Paragraph">
+        What Day would you like to play?<br>
+        <label><input type="radio" name="Day" value="Monday" id="DayMon">Monday</label>
+        <label><input type="radio" name="Day" value="Saturday" id="DaySat">Saturday</label><br><br>
 
+        What Time Would you like to play?<br>
+        <label><input type="radio" name="Time" value="Afternoon" id="TimeAfternoon">Afternoon</label>
+        <label><input type="radio" name="Time" value="Evening" id="TimeEvening">Evening</label><br><br>
+
+        I Have Read and Understand the Playing Guidelines listed Below.<br>
+        <label for="Agree">I Agree. </label>
+        <input type="checkbox" name="Agree" id="Agree"><br><br><br>
+
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <input type="reset" name="reset" id="reset" value="reset">
+
+    </form>
 </div>
 
 <div id="ArticleThreeHeading" class="MainHeading">
-
+    Playing Guidelines
 </div>
 
 <div id="ArticleThreeBody" class="Paragraph">
+    Participants in Slammers Beach Volleyball play at their own risk. Anyone playing is responsible for their own safety
+    and should only play if they are capable. Check with your doctor before you begin.
+    Game fees must be paid prior to the start of the game. Games may be cancelled by players up to 4 hours before hand
+    to get a refund. Without 4 hours' notice, participants will forfeit the game and be charged 50% of the game fee.
 
 </div>
 

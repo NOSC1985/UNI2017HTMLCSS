@@ -46,22 +46,91 @@
     font-size: 585%;
 }
 
-#ProSignupForm {
+#CasualTopBanner {
+    width: 100%;
     position: absolute;
-    width: 25%;
+    top: 560px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 585%;
+}
+
+#JuniorTopBanner {
+    width: 100%;
+    position: absolute;
+    top: 560px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 585%;
+}
+
+#ProSignupForm {
+     position: absolute;
+     width: 50%;
+     height: auto;
+     left: 500px;
+     top: 750px;
+     margin: 0;
+     padding: 30px;
+     border: double;
+     font-size: 180%;
+ }
+
+#ProSignupForm label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#CasualSignupForm {
+    position: absolute;
+    width: 50%;
     height: auto;
     left: 500px;
     top: 750px;
     margin: 0;
     padding: 30px;
     border: double;
-
+    font-size: 180%;
 }
-#ProSignupForm label {
+
+#CasualSignupForm label {
     float: left;
     width: 6em;
     text-align: right;
     margin-right: 10px;
+}
+
+#JuniorSignupForm {
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 500px;
+    top: 750px;
+    margin: 0;
+    padding: 30px;
+    border: double;
+    font-size: 180%;
+}
+
+#JuniorSignupForm label {
+    float: left;
+    width: 6em;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#submit {
+    font-size: 200%;
+    background-color: blue;
+}
+
+#reset {
+    font-size: 200%;
+    background-color: yellow;
 }
 
 #CasualTopBanner {
